@@ -16,8 +16,7 @@
           {
             name = "rules_nixpkgs_shell";
 
-            #packages = with pkgs; [ bazel bazel-buildtools nix git haskell-language-server ]; 
-            packages = with pkgs; [ hello ];
+            packages = with pkgs; [ bazel bazel-buildtools nix git ]; 
           };
       });
 }
